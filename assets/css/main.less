@@ -150,7 +150,7 @@ header p:first-child {
 }
 
 .line:hover:after,
-.line:focus:after, {
+.line:focus:after {
   right: 0;
 }
 
@@ -276,6 +276,11 @@ h1 {
   margin-bottom: 45px;
 }
 
+#development h3 {
+  margin-top: -10px;
+  border-bottom: 3px solid @text1;
+}
+
 #development img {
   margin-top: 25px;
 }
@@ -283,7 +288,8 @@ h1 {
 // Overlay
 // Use ID to change images
 #content-item1 {
-  background: url(https://placekitten.com/g/300/300);
+  background: url(../img/random-acts-of-norris.jpg);
+  width: 100%;
 }
 
 .content-item {
@@ -380,7 +386,7 @@ h1 {
 }
 
 form {
-  width: 70%;
+  width: 90%;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -480,6 +486,9 @@ footer a:hover {
   .hi {
     display: block;
     margin-bottom: 25px;
+  }
+  form {
+    width: 70%;
   }
 }
 @media screen and (min-width: 1000px) {
